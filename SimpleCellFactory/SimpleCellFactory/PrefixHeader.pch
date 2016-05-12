@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  SimpleCellFactory
+//
+//  Created by apple on 16/5/10.
+//  Copyright © 2016年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define UISCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define UISCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+
+/** Cell高度*/
+#define ONEIMAGECELLHEIGHT 80
+#define ONEBIGIMAGECELLHEIGHT 250
+#define IMAGESCELLHEIGHT 130
+
+/** Cell标识符*/
+#define NEWSONEIMAGECELL @"OneImageCell"
+#define NEWSONEBIGIMAGECELL @"BigImageCell"
+#define NEWSIMAGESCELL @"ImagesCell"
+#define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
+
+/** 类*/
+#import "LHTools.h"
+#import <UIImageView+WebCache.h>
+#import "LHNewsModel.h"
+
+#endif /* PrefixHeader_pch */
